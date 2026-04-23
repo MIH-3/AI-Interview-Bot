@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.service.impl; import com.company.aiinterview.voice.service.VoiceInterviewService; import org.springframework.stereotype.Service; @Service public class VoiceInterviewServiceImpl implements VoiceInterviewService { public Object placeholder(){ return null; } }

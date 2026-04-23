@@ -1,0 +1,1 @@
+package com.company.aiinterview.auth.service; import com.company.aiinterview.auth.dto.request.*; import com.company.aiinterview.auth.dto.response.*; public interface AuthService { UserResponseDto register(RegisterRequestDto request); LoginResponseDto login(LoginRequestDto request); UserResponseDto getCurrentUser(); }

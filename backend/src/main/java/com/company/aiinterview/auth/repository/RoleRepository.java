@@ -1,0 +1,1 @@
+package com.company.aiinterview.auth.repository; import com.company.aiinterview.auth.entity.RoleEntity; import com.company.aiinterview.common.enums.RoleType; import org.springframework.data.jpa.repository.*; import java.util.*; public interface RoleRepository extends JpaRepository<RoleEntity,Long>{ Optional<RoleEntity> findByRoleName(RoleType roleType);} 

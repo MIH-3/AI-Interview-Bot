@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.client; import org.springframework.stereotype.Component; import java.io.File; @Component public class WhisperClient { public String transcribe(File audioFile){ return ""; } }

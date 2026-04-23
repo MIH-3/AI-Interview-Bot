@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.service; import com.company.aiinterview.ai.dto.request.*; import com.company.aiinterview.ai.dto.response.*; public interface GeminiEvaluationService { EvaluateAnswerResponseDto evaluateAnswer(EvaluateAnswerRequestDto request); }

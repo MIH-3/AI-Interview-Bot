@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.dto.request; import lombok.Data; @Data public class EvaluateAnswerRequestDto { private String question; private String answer; private String category; private String difficulty; }

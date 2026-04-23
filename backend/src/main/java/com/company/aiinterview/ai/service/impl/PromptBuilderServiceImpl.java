@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.service.impl; import com.company.aiinterview.ai.service.PromptBuilderService; import org.springframework.stereotype.Service; @Service public class PromptBuilderServiceImpl implements PromptBuilderService { public Object placeholder(){ return null; } }

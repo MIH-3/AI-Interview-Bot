@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.request; import lombok.Data; @Data public class StartInterviewRequestDto { private Long candidateProfileId; private Long jobDescriptionId; private String mode; private String languageCode; private Integer questionCount; }

@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.service.impl; import com.company.aiinterview.voice.service.TextToSpeechService; import org.springframework.stereotype.Service; @Service public class PiperTextToSpeechServiceImpl implements TextToSpeechService { public Object placeholder(){ return null; } }

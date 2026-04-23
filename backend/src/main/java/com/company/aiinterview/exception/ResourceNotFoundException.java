@@ -1,0 +1,1 @@
+package com.company.aiinterview.exception; public class ResourceNotFoundException extends RuntimeException { public ResourceNotFoundException(){super();} public ResourceNotFoundException(String m){super(m);} }

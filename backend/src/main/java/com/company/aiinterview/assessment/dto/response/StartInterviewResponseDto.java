@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class StartInterviewResponseDto { private Long sessionId; private String status; private String mode; private Integer targetQuestionCount; }

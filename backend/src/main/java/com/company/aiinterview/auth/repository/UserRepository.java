@@ -1,0 +1,1 @@
+package com.company.aiinterview.auth.repository; import com.company.aiinterview.auth.entity.UserEntity; import org.springframework.data.jpa.repository.*; import java.util.*; public interface UserRepository extends JpaRepository<UserEntity,Long>{ Optional<UserEntity> findByEmail(String email);} 

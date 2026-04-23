@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.service; import com.company.aiinterview.assessment.dto.request.StartInterviewRequestDto; import com.company.aiinterview.assessment.dto.response.StartInterviewResponseDto; public interface InterviewSessionService { StartInterviewResponseDto startInterview(StartInterviewRequestDto request); void completeInterview(Long sessionId); }

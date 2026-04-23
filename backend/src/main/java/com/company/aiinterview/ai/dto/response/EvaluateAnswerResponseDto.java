@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.dto.response; import lombok.Data; @Data public class EvaluateAnswerResponseDto { private Double score; private String feedback; private java.util.List<String> improvementTips; }

@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.service; import com.company.aiinterview.voice.dto.request.*; import com.company.aiinterview.voice.dto.response.*; public interface TextToSpeechService { TextToSpeechResponseDto synthesize(TextToSpeechRequestDto request); }

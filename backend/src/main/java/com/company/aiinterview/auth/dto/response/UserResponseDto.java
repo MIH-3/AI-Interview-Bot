@@ -1,0 +1,1 @@
+package com.company.aiinterview.auth.dto.response; import lombok.Data; import java.util.*; @Data public class UserResponseDto { private Long id; private String fullName; private String email; private Set<String> roles; }

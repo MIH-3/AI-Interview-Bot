@@ -1,0 +1,1 @@
+package com.company.aiinterview.exception; public class ExternalServiceException extends RuntimeException { public ExternalServiceException(){super();} public ExternalServiceException(String m){super(m);} }
