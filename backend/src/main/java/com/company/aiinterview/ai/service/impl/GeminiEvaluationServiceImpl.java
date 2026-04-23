@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.service.impl; import com.company.aiinterview.ai.service.GeminiEvaluationService; import org.springframework.stereotype.Service; @Service public class GeminiEvaluationServiceImpl implements GeminiEvaluationService { public Object placeholder(){ return null; } }

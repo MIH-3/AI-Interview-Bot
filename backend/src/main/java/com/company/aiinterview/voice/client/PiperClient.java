@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.client; import org.springframework.stereotype.Component; import java.io.File; @Component public class PiperClient { public File synthesizeToWav(String text, String languageCode){ return null; } }

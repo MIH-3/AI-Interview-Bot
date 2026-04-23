@@ -1,0 +1,1 @@
+package com.company.aiinterview.translation.service; import com.company.aiinterview.translation.dto.request.TranslationRequestDto; import com.company.aiinterview.translation.dto.response.TranslationResponseDto; public interface TranslationService { TranslationResponseDto translate(TranslationRequestDto request); }

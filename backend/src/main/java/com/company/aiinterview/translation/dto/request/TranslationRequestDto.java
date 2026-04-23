@@ -1,0 +1,1 @@
+package com.company.aiinterview.translation.dto.request; import lombok.Data; @Data public class TranslationRequestDto { private String text; private String sourceLanguage; private String targetLanguage; }

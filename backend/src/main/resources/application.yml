@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: ai-interview-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ai_interview
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080
+security:
+  jwt:
+    secret: change-me-256-bit-secret
+    expiration-minutes: 180
+gemini:
+  base-url: https://generativelanguage.googleapis.com
+  api-key: ${GEMINI_API_KEY:replace-me}
+  model: gemini-1.5-pro
+whisper:
+  executable: whisper
+  model: base
+  temp-dir: /tmp/whisper
+piper:
+  executable: piper
+  model-path: /opt/piper/models/en_US-lessac-medium.onnx
+  output-dir: /tmp/piper
+libretranslate:
+  base-url: http://localhost:5000
+  api-key: ${LIBRETRANSLATE_API_KEY:}

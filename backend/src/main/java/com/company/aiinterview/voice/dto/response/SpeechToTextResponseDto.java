@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.dto.response; import lombok.Data; @Data public class SpeechToTextResponseDto { private String transcript; private String detectedLanguage; private Double confidence; }

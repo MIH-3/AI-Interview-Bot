@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class JobDescriptionUploadResponseDto { private Long jobDescriptionId; private String roleTitle; private java.util.List<String> mandatorySkills; private java.util.List<String> optionalSkills; }

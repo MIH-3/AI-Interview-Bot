@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class ResumeUploadResponseDto { private Long resumeId; private String fileName; private String candidateName; private Integer extractedYearsOfExperience; private java.util.List<String> extractedSkills; }

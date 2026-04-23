@@ -1,0 +1,1 @@
+package com.company.aiinterview.voice.service.impl; import com.company.aiinterview.voice.service.SpeechToTextService; import org.springframework.stereotype.Service; @Service public class WhisperSpeechToTextServiceImpl implements SpeechToTextService { public Object placeholder(){ return null; } }

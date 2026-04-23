@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.dto.response; import lombok.Data; @Data public class ExtractSkillsResponseDto { private java.util.List<String> mandatorySkills; private java.util.List<String> optionalSkills; private java.util.List<String> candidateSkills; }

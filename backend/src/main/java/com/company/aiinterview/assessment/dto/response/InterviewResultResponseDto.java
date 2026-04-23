@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class InterviewResultResponseDto { private Long sessionId; private Double overallScore; private String recommendation; private java.util.List<CategoryScoreResponseDto> categoryScores; private String strengths; private String weaknesses; private String summary; }

@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class NextQuestionResponseDto { private Long questionId; private String category; private String difficulty; private String questionText; private Integer sequenceNo; }

@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.service.impl; import com.company.aiinterview.ai.service.SkillExtractionService; import org.springframework.stereotype.Service; @Service public class SkillExtractionServiceImpl implements SkillExtractionService { public Object placeholder(){ return null; } }

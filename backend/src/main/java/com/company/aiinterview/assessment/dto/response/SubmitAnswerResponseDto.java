@@ -1,0 +1,1 @@
+package com.company.aiinterview.assessment.dto.response; import lombok.Data; @Data public class SubmitAnswerResponseDto { private Long answerId; private Double answerScore; private String feedback; private boolean nextQuestionAvailable; }

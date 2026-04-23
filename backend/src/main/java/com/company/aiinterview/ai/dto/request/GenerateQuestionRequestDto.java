@@ -1,0 +1,1 @@
+package com.company.aiinterview.ai.dto.request; import lombok.Data; @Data public class GenerateQuestionRequestDto { private java.util.List<String> resumeSkills; private java.util.List<String> jdSkills; private Integer yearsOfExperience; private String category; private String difficulty; private java.util.List<String> previousQuestions; private String answerHistorySummary; }
